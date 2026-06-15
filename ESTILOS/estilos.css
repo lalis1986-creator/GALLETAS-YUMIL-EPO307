@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8f0;
+}
+
+/* Encabezado con imagen de fondo */
+header{
+    background-image: url("../IMAGENES/FONDO DE GALLETAS DE AVENA.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+nav{
+    background-color: rgba(139, 69, 19, 0.9);
+    padding: 12px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #ffd700;
+}
+
+.banner img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+section{
+    padding: 20px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    color: #8b4513;
+}
+
+.producto{
+    background-color: #ffe4c4;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #d2691e;
+    color: white;
+}
+
+th, td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+form input,
+form textarea{
+    width: 95%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"]{
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #8b4513;
+}
+
+footer{
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+img{
+    border-radius: 10px;
+    margin: 5px;
+}
